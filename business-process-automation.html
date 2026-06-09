@@ -1,196 +1,130 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Process Automation — Quantify Consulting</title>
-    <meta name="description" content="Get back to your core business — we map, redesign, and automate the processes that bog you down.">
-    <link rel="stylesheet" href="css/shared.css">
-    <link rel="icon" type="image/png" href="assets/qc_logo_only_blank_on_trans.png">
-</head>
-<body>
-    <header class="site-header">
-        <div class="site-header-inner">
-            <a href="index.html" class="site-logo">
-                <img src="assets/qc_logo_black_on_transparent.png" alt="Quantify" height="32" />
-            </a>
-            <nav class="site-nav">
-                <a href="data-analytics.html">Reporting & Analytics</a>
-                <a href="business-process-automation.html" class="active">Process Automation</a>
-                <a href="case-studies.html">Case Studies</a>
-                <a href="about.html">Our Team</a>
-                <a href="journal.html">Blog</a>
-                <a href="contact-us.html">Contact</a>
-                <a href="contact-us.html" class="cta">Free Consultation</a>
-            </nav>
+---
+layout: default
+title: Automation
+description: "Get back to your core business — we map, redesign, and automate the processes that bog you down."
+active_nav: expertise
+---
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-content">
+        <span class="eyebrow">Process Automation</span>
+        <h1>Say goodbye to overhead.<br>Get back <span class="accent-word">what you love</span>.</h1>
+        <p class="lead">You started your business to deliver an awesome product. But now you're bogged down in repetitive tasks. We help you get back to your core business.</p>
+        <div class="hero-cta-row">
+            <a href="{{ '/get-started.html' | relative_url }}" class="btn btn-amber">Book a Consultation</a>
         </div>
-    </header>
+    </div>
+</section>
 
-    <main>
-        <!-- Hero -->
-        <section class="hero">
-            <div class="hero-content">
-                <span class="eyebrow">Process Automation</span>
-                <h1>Say goodbye to overhead.<br>Get back <span class="accent-word">what you love</span>.</h1>
-                <p class="lead">You started your business to deliver an awesome product. But now you're bogged down in repetitive tasks. We help you get back to your core business.</p>
-                <div class="hero-cta-row">
-                    <a href="contact-us.html" class="btn btn-amber">Book a Consultation</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- The pain -->
-        <section class="section">
-            <div class="container-narrow">
-                <div class="section-heading">
-                    <h2>You started your business to deliver an awesome product…</h2>
-                </div>
-                <p class="lead" style="margin-bottom: 1.5rem;">But now you're bogged down in repetitive tasks:</p>
-                <div class="value-block">
-                    <ul style="list-style: none; padding: 0; display: grid; gap: 0.6rem;">
-                        <li style="padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> Booking and scheduling</li>
-                        <li style="padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> Creating estimates, contracts, and invoices</li>
-                        <li style="padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> Overwhelmed with customer and employee comms</li>
-                        <li style="padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> Manually calculating project-level P&L</li>
-                        <li style="padding-left: 1.5rem; position: relative; color: var(--text-muted); font-style: italic;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> The list goes on…</li>
-                    </ul>
-                </div>
-                <p style="text-align: center; margin-top: 2.5rem; font-size: 1.25rem; color: var(--text-heading); font-weight: 500;"><em>Our</em> core business is helping you get back to <em>your</em> core business.</p>
-            </div>
-        </section>
-
-        <!-- 3-step process -->
-        <section class="section" style="background: var(--bg-surface); border-top: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft);">
-            <div class="container">
-                <div class="section-heading">
-                    <h2>How we work</h2>
-                </div>
-                <div class="steps">
-                    <article class="step">
-                        <div class="step-num">01</div>
-                        <div>
-                            <h3>Map out existing business processes</h3>
-                            <ul>
-                                <li>We'll review and map out the business processes that helped get you where you are today</li>
-                                <li>This provides a bird's-eye view and exposes problem areas</li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="step">
-                        <div class="step-num">02</div>
-                        <div>
-                            <h3>Identify areas for redesign + automation</h3>
-                            <ul>
-                                <li>Some processes will <em>always</em> require a human touch</li>
-                                <li>Others can be fully or partially automated</li>
-                                <li>We'll help you differentiate between the two</li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article class="step">
-                        <div class="step-num">03</div>
-                        <div>
-                            <h3>Redesign + automate processes</h3>
-                            <ul>
-                                <li>Our team takes action on the findings</li>
-                                <li>Implement new tools to support new processes (if necessary)</li>
-                                <li>Deliver solutions that save your company tens or even hundreds of hours each month</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <!-- Tools -->
-        <section class="section">
-            <div class="container">
-                <div class="section-heading">
-                    <h2>Tools we work with</h2>
-                </div>
-                <p class="muted" style="margin-bottom: 2rem;">A diverse set of platforms to make your work more efficient.</p>
-                <div class="logo-strip" style="margin-bottom: 2.5rem;">
-                    <div class="logo-chip">Zapier</div>
-                    <div class="logo-chip">Make</div>
-                    <div class="logo-chip">Airtable</div>
-                    <div class="logo-chip">Trello</div>
-                    <div class="logo-chip">Fillout</div>
-                </div>
-
-                <h3 style="margin-bottom: 1rem;">Connecting a broad array of your tools…</h3>
-                <div class="logo-strip">
-                    <div class="logo-chip">OneDrive</div>
-                    <div class="logo-chip">QuickBooks</div>
-                    <div class="logo-chip">Google Drive</div>
-                    <div class="logo-chip">Slack</div>
-                    <div class="logo-chip">HubSpot</div>
-                    <div class="logo-chip">Gmail</div>
-                    <div class="logo-chip">Stripe</div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CTA Banner -->
-        <section class="cta-banner">
-            <div class="container">
-                <h2>Let's get started</h2>
-                <p>Schedule a free consultation today to see how our expert solutions can streamline your processes and drive lasting success.</p>
-                <a href="contact-us.html" class="btn btn-amber">Book Now</a>
-            </div>
-        </section>
-
-        <!-- Newsletter -->
-        <section class="newsletter">
-            <div class="container-narrow">
-                <h3>Stay informed</h3>
-                <p>Sign up with your email address to receive news and updates.</p>
-                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Placeholder — wire to your ESP.');">
-                    <input type="email" placeholder="Email address" aria-label="Email address" required>
-                    <button type="submit" class="btn btn-primary">Sign up</button>
-                </form>
-                <p class="muted" style="font-size: 0.8rem; margin-top: 1rem;">We value and respect your privacy.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="index.html" class="site-logo">
-                        <img src="assets/qc_logo_black_on_transparent.png" alt="Quantify" height="28" />
-                    </a>
-                    <p>Helping businesses unlock the power of their data through analytics, automation, and AI.</p>
-                </div>
-                <div>
-                    <h4>Learn</h4>
-                    <ul>
-                        <li><a href="data-analytics.html">Reporting & Analytics</a></li>
-                        <li><a href="business-process-automation.html">Process Automation</a></li>
-                        <li><a href="case-studies.html">Case Studies</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="journal.html">Blog</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="contact-us.html">Get Started</a></li>
-                        <li><a href="mailto:evan@quantify-consulting.com">evan@quantify-consulting.com</a></li>
-                        <li><a href="tel:+13154863742">(315) 486-3742</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Connect</h4>
-                    <ul>
-                        <li><a href="https://www.linkedin.com/in/evan-jennings/">LinkedIn</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                © 2026 Quantify Consulting · <a href="#">Privacy Policy</a>
-            </div>
+<!-- The pain -->
+<section class="section">
+    <div class="container-narrow">
+        <div class="section-heading">
+            <h2>You started your business to deliver an awesome product…</h2>
         </div>
-    </footer>
-</body>
-</html>
+        <p class="lead" style="margin-bottom: 1.5rem;">But now you're bogged down in repetitive tasks:</p>
+        <div class="value-block">
+            <ul style="list-style: none; padding: 0; display: grid; gap: 0.6rem;">
+                <li style="padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> Booking and scheduling</li>
+                <li style="padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> Creating estimates, contracts, and invoices</li>
+                <li style="padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> Overwhelmed with customer and employee comms</li>
+                <li style="padding-left: 1.5rem; position: relative;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> Manually calculating project-level P&L</li>
+                <li style="padding-left: 1.5rem; position: relative; color: var(--text-muted); font-style: italic;"><span style="position: absolute; left: 0; color: var(--accent-warm); font-weight: 700;">→</span> The list goes on…</li>
+            </ul>
+        </div>
+        <p style="text-align: center; margin-top: 2.5rem; font-size: 1.25rem; color: var(--text-heading); font-weight: 500;"><em>Our</em> core business is helping you get back to <em>your</em> core business.</p>
+    </div>
+</section>
+
+<!-- 3-step process -->
+<section class="section" style="background: var(--bg-surface); border-top: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft);">
+    <div class="container">
+        <div class="section-heading">
+            <h2>How we work</h2>
+        </div>
+        <div class="steps">
+            <article class="step">
+                <div class="step-num">01</div>
+                <div>
+                    <h3>Map out existing business processes</h3>
+                    <ul>
+                        <li>We'll review and map out the business processes that helped get you where you are today</li>
+                        <li>This provides a bird's-eye view and exposes problem areas</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="step">
+                <div class="step-num">02</div>
+                <div>
+                    <h3>Identify areas for redesign + automation</h3>
+                    <ul>
+                        <li>Some processes will <em>always</em> require a human touch</li>
+                        <li>Others can be fully or partially automated</li>
+                        <li>We'll help you differentiate between the two</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="step">
+                <div class="step-num">03</div>
+                <div>
+                    <h3>Redesign + automate processes</h3>
+                    <ul>
+                        <li>Our team takes action on the findings</li>
+                        <li>Implement new tools to support new processes (if necessary)</li>
+                        <li>Deliver solutions that save your company tens or even hundreds of hours each month</li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Tools -->
+<section class="section">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Tools we work with</h2>
+        </div>
+        <p class="muted" style="margin-bottom: 2rem;">A diverse set of platforms to make your work more efficient.</p>
+        <div class="logo-strip" style="margin-bottom: 2.5rem;">
+            <div class="logo-chip">Zapier</div>
+            <div class="logo-chip">Make</div>
+            <div class="logo-chip">Airtable</div>
+            <div class="logo-chip">Trello</div>
+            <div class="logo-chip">Fillout</div>
+        </div>
+
+        <h3 style="margin-bottom: 1rem;">Connecting a broad array of your tools…</h3>
+        <div class="logo-strip">
+            <div class="logo-chip">OneDrive</div>
+            <div class="logo-chip">QuickBooks</div>
+            <div class="logo-chip">Google Drive</div>
+            <div class="logo-chip">Slack</div>
+            <div class="logo-chip">HubSpot</div>
+            <div class="logo-chip">Gmail</div>
+            <div class="logo-chip">Stripe</div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="cta-banner">
+    <div class="container">
+        <h2>Let's get started</h2>
+        <p>Schedule a free consultation today to see how our expert solutions can streamline your processes and drive lasting success.</p>
+        <a href="{{ '/get-started.html' | relative_url }}" class="btn btn-amber">Book Now</a>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter">
+    <div class="container-narrow">
+        <h3>Stay informed</h3>
+        <p>Sign up with your email address to receive news and updates.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Placeholder — wire to your ESP.');">
+            <input type="email" placeholder="Email address" aria-label="Email address" required>
+            <button type="submit" class="btn btn-primary">Sign up</button>
+        </form>
+        <p class="muted" style="font-size: 0.8rem; margin-top: 1rem;">We value and respect your privacy.</p>
+    </div>
+</section>
