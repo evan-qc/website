@@ -15,13 +15,28 @@
                 <img src="{{ '/assets/qc_logo_black_on_transparent.png' | relative_url }}" alt="Quantify" height="32" />
             </a>
             <nav class="site-nav">
-                <a href="{{ '/data-analytics.html' | relative_url }}"{% if page.active_nav == 'analytics' %} class="active"{% endif %}>Reporting & Analytics</a>
-                <a href="{{ '/business-process-automation.html' | relative_url }}"{% if page.active_nav == 'automation' %} class="active"{% endif %}>Process Automation</a>
-                <a href="{{ '/case-studies.html' | relative_url }}"{% if page.active_nav == 'case-studies' %} class="active"{% endif %}>Case Studies</a>
-                <a href="{{ '/about.html' | relative_url }}"{% if page.active_nav == 'about' %} class="active"{% endif %}>Our Team</a>
-                <a href="{{ '/blog.html' | relative_url }}"{% if page.active_nav == 'blog' %} class="active"{% endif %}>Blog</a>
-                <a href="{{ '/contact-us.html' | relative_url }}"{% if page.active_nav == 'contact' %} class="active"{% endif %}>Contact</a>
-                <a href="{{ '/contact-us.html' | relative_url }}" class="cta">Free Consultation</a>
+                <div class="nav-item has-dropdown">
+                    <button type="button" class="nav-trigger{% if page.active_nav == 'about' %} active{% endif %}" aria-haspopup="true">About Us <span class="nav-caret" aria-hidden="true">▾</span></button>
+                    <div class="dropdown">
+                        <a href="{{ '/our-why.html' | relative_url }}">Our Why</a>
+                        <a href="{{ '/the-3as.html' | relative_url }}">The "3 A's"</a>
+                        <a href="{{ '/what-to-expect.html' | relative_url }}">What to Expect</a>
+                        <a href="{{ '/about.html' | relative_url }}">Meet The Team</a>
+                    </div>
+                </div>
+                <div class="nav-item has-dropdown">
+                    <button type="button" class="nav-trigger{% if page.active_nav == 'expertise' %} active{% endif %}" aria-haspopup="true">Expertise <span class="nav-caret" aria-hidden="true">▾</span></button>
+                    <div class="dropdown">
+                        <a href="{{ '/journal.html' | relative_url }}">Blog</a>
+                        <span class="dropdown-label">The 3 A's</span>
+                        <a href="{{ '/data-analytics.html' | relative_url }}" class="dropdown-sub">Analytics</a>
+                        <a href="{{ '/business-process-automation.html' | relative_url }}" class="dropdown-sub">Automation</a>
+                        <a href="{{ '/ai.html' | relative_url }}" class="dropdown-sub">AI</a>
+                        <a href="{{ '/technologies-partners.html' | relative_url }}">Technologies &amp; Partners</a>
+                    </div>
+                </div>
+                <a href="{{ '/case-studies.html' | relative_url }}" class="nav-link{% if page.active_nav == 'outcomes' %} active{% endif %}">Client Outcomes</a>
+                <a href="{{ '/get-started.html' | relative_url }}" class="cta">Let's Work Together</a>
             </nav>
         </div>
     </header>
@@ -38,26 +53,30 @@
                     <p>Helping businesses unlock the power of their data through analytics, automation, and AI.</p>
                 </div>
                 <div>
-                    <h4>Learn</h4>
+                    <h4>Expertise</h4>
                     <ul>
-                        <li><a href="{{ '/data-analytics.html' | relative_url }}">Reporting & Analytics</a></li>
-                        <li><a href="{{ '/business-process-automation.html' | relative_url }}">Process Automation</a></li>
-                        <li><a href="{{ '/case-studies.html' | relative_url }}">Case Studies</a></li>
-                        <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
-                        <li><a href="{{ '/blog.html' | relative_url }}">Blog</a></li>
+                        <li><a href="{{ '/data-analytics.html' | relative_url }}">Analytics</a></li>
+                        <li><a href="{{ '/business-process-automation.html' | relative_url }}">Automation</a></li>
+                        <li><a href="{{ '/ai.html' | relative_url }}">AI</a></li>
+                        <li><a href="{{ '/technologies-partners.html' | relative_url }}">Technologies &amp; Partners</a></li>
+                        <li><a href="{{ '/journal.html' | relative_url }}">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="{{ '/about.html' | relative_url }}">Meet The Team</a></li>
+                        <li><a href="{{ '/our-why.html' | relative_url }}">Our Why</a></li>
+                        <li><a href="{{ '/what-to-expect.html' | relative_url }}">What to Expect</a></li>
+                        <li><a href="{{ '/case-studies.html' | relative_url }}">Client Outcomes</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4>Contact</h4>
                     <ul>
-                        <li><a href="{{ '/contact-us.html' | relative_url }}">Get Started</a></li>
+                        <li><a href="{{ '/get-started.html' | relative_url }}">Let's Work Together</a></li>
                         <li><a href="mailto:evan@quantify-consulting.com">evan@quantify-consulting.com</a></li>
                         <li><a href="tel:+13154863742">(315) 486-3742</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Connect</h4>
-                    <ul>
                         <li><a href="https://www.linkedin.com/in/evan-jennings/">LinkedIn</a></li>
                     </ul>
                 </div>
